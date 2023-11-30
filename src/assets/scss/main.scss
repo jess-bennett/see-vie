@@ -1,0 +1,22 @@
+// ITCSS structure
+
+// 01. Settings
+@import '01-settings/index.scss';
+
+// 02. Tools
+@import '02-tools/index.scss';
+
+// 03. Generic
+@import '03-generic/index.scss';
+
+// 04. Elements
+@import '04-elements/index.scss';
+
+// 05. Objects
+@import '05-objects/index.scss';
+
+// 06. Components
+@import '06-components/index.scss';
+
+// 99. Utilities
+@import '07-utilities/index.scss';
