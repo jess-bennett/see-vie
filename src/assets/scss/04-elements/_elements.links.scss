@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #LINKS
+   ========================================================================== */
+
+a {
+  color: $color-brand-secondary;
+  text-decoration: none;
+  transition: color 0.25s;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $color-brand-light;
+  }
+
+  &.landing__link {
+    font-size: 10rem;
+  }
+}

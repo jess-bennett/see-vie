@@ -1,0 +1,39 @@
+/* ==========================================================================
+   #FORMS
+   ========================================================================== */
+
+/* Label */
+
+label {
+  display: inline-block;
+  font-weight: $weight-bold;
+  margin-bottom: $base-spacing-unit-xs;
+
+  /* Checkbox or Radio Button */
+
+  [type='checkbox'],
+  [type='radio'] {
+    margin-right: $base-spacing-unit-xs;
+  }
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-family: $brand-font-secondary;
+  color: $brand-color-secondary;
+  font-size: 10rem;
+  text-align: center;
+  display: block;
+  width: 100%;
+
+  &::placeholder {
+    color: $color-brand-light;
+  }
+}
+
+/* Legend */
+
+legend {
+  font-weight: $weight-bold;
+}

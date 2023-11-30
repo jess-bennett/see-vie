@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #PAGE
+   ========================================================================== */
+
+/**
+ * The page-level setup.
+ */
+
+html {
+  color: $color-brand-secondary;
+  background-color: $color-brand;
+  font-family: $font;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
