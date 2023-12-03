@@ -4,6 +4,10 @@
 
 h1 {
   @include font-size($font-size-h1, 1.25);
+
+  &.landing__title {
+    font-size: 13rem;
+  }
 }
 
 h2 {
