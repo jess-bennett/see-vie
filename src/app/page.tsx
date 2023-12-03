@@ -1,5 +1,5 @@
+import Head from 'next/head'
 import Input from '@/components/Input/Input'
-import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
 
@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-
       <h1 className='landing__title'>Bye Bye Curriculum Vitae...</h1>
       <h1 className='landing__title'>...Hello See-Vie!</h1>
       <Input placeholder='name'></Input>

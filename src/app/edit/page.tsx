@@ -1,7 +1,9 @@
-export default function Edit() {
+import Link from "next/link"
+
+export default function EditPage() {
     return (
         <main>
-            EDIT
+            <Link href="/preview">Preview</Link>
         </main>
     )
 }
